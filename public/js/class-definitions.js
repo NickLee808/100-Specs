@@ -52,6 +52,7 @@ galilean_moons = ["Io", "Europa", "Ganymede", "Callisto"];
  *
  */
 
+golden_ratio = 1.61803398874;
 
 /* Step 7
  *
