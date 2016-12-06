@@ -33,6 +33,7 @@ sahara_animal = "The Addax";
  * Capitalize the names.
  */
 
+planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"];
 
 /* Step 5
  *
