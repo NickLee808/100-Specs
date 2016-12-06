@@ -70,6 +70,7 @@ earths_water_composition = 0.71;
  *
  */
 
+club_name = "Fight Club";
 
 /* Step 9
  *
