@@ -5,6 +5,7 @@
  *
  */
 
+unicorn = null;
 
 /* Step 2
  *
@@ -12,6 +13,7 @@
  * then assign it to be the value of "Atari"
  *
  */
+
 
 
 /* Step 3
