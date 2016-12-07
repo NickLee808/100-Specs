@@ -194,6 +194,7 @@ rainbow = {
  *
  */
 
+linuxFlavors = ["Gentoo", "Fedora", "Debian", "Slackware", "Red Hat", "Bieber Linux"];
 
 /* Step 15
  *
@@ -207,7 +208,6 @@ rainbow = {
  * "cytosine"
  *
  */
-
 
 /* Step 16
  *
