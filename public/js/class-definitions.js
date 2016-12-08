@@ -379,6 +379,13 @@ function drink(beerName){
  *
  */
 
+function browseURL(browser){
+  if (browsers.hasOwnProperty(browser)){
+    return browsers[browser];
+  }else{
+    return false;
+  }
+}
 
 /* Step 25
  *
