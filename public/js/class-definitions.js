@@ -474,8 +474,6 @@ Person.prototype.earnMoney = function(amount){
   this.money += amount;
 };
 
-
-
 /* Step 28
  *
  * Define a function named "purchaseLaptop" that takes
@@ -488,6 +486,13 @@ Person.prototype.earnMoney = function(amount){
  *
  */
 
+function purchaseLaptop(laptop){
+  if (laptopCosts.hasOwnProperty(laptop)){
+    return laptopCosts[laptop].toString();
+  }else{
+    return -1;
+  }
+}
 
 /* Step 29
  *
