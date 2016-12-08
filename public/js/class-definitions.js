@@ -397,7 +397,6 @@ function browseURL(browser){
  *
  */
 
-
 /* Step 26
  *
  * Define a function named "favoritePlanet" that
