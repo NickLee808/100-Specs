@@ -330,7 +330,7 @@ function addNumbers(num1, num2){
  */
 
 function installLinux(linuxDistro){
-  if (linuxFlavors.indexOf(linuxDistro) > -1){
+  if (linuxFlavors.indexOf(linuxDistro) !== -1){
     return true;
   }else{
     return false;
@@ -355,6 +355,17 @@ function installLinux(linuxDistro){
  *
  */
 
+function drink(beerName){
+  if(beers.hasOwnProperty(beerName)){
+    if(typeof beers[beerName] === 'object'){
+      return "This " + beerName + " is " + beers[beerName][0] + " and " + beers[beerName][1] + ".";
+    }else{
+      return "This " + beerName + " is " + beers[beerName] + ".";
+    }
+  }else{
+    return false;
+  }
+}
 
 /* Step 24
  *
