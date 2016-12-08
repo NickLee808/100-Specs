@@ -397,6 +397,16 @@ function browseURL(browser){
  *
  */
 
+function listLivingOrgClass(){
+  unorderedList = document.createElement('ul');
+  for (i=0; i<livingOrganismClassification.length; i++){
+    listElement = document.createElement('li');
+    listElement.innerHTML = livingOrganismClassification[i];
+    unorderedList.appendChild(listElement);
+  }
+  return unorderedList.outerHTML;
+}
+
 /* Step 26
  *
  * Define a function named "favoritePlanet" that
